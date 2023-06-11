@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medlog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="navbar">
+     <div class="containerl">
+        <div class="logobox">
+         <img src="img/logo.png" alt="" class="logo">
+         <h3>MEDLOG</h3>
+        </div>
+         <nav>
+             
+             
+         </nav>
+     </div>
+ </header>
+ <div class="fonte">
+    <p>Fonte</p>
+    <button id="diminuir" title="-">A-</button>
+    <button id="aumentar" title="+">A+</button>
+    
+
+ </div>
+ <div class="form-wrapper for"> <!-- Form-wrapper only for positioning -->
+    <form action="#non" method="post" class="fcorn-register container">
+       <h1 id="titulo">Registro de Paciente</h1>
+        <div class="row">
+            <p class="col-md-6"><input type="text" placeholder="Nome" required></p>
+            <p class="col-md-6"><input type="text" placeholder="Sobrenome" required></p>
+        </div>
+        <div class="row">
+            <p class="col-md-6"><input type="tel" placeholder="Telefone" required></p>
+            <p class="col-md-6"><input type="number" placeholder="CEP" required min="0"></p>
+        </div>
+        <p><input type="text" placeholder="Endereço" required>
+        </p>
+        <p><input type="text" placeholder="Nome Pai" required>
+        </p>
+        <p><input type="text" placeholder="Nome Mãe" required>
+        </p>
+        <div class="row">
+            <p class="col-md-4"><input type="number" placeholder="Peso" required min="0" ></p>
+            <p class="col-md-4"><input type="number" placeholder="Altura" required min="0" ;></p>
+            <p class="col-md-4"><input type="number" placeholder="Idade" required min="0" ;></p>
+        </div>
+       
+        <div class="row">
+            <p class="col-md-6"><label >Sexo</label>
+            <select >
+                <option selected disabled value="">Selecione</option>
+                <option>Masculino</option>
+                <option>Feminino</option>
+                <option>Outro</option>
+            </select></p>
+            <p class="col-md-6">
+                <label >Raça</label>
+                <select >
+                    <option selected disabled value="">Selecione</option>
+                    <option>Branco</option>
+                    <option>Preto</option>
+                    <option>Pardo</option>
+                    <option>Outro</option>
+                </select>
+            </p>
+        </div>
+        <div class="row">
+            <p class="col-md-6"><label >Plano de Saúde</label>
+                <select >
+                    <option selected disabled value="">Selecione</option>
+                    <option>Unimed</option>
+                    <option>bradesco</option>
+                    <option>Porto Seguro</option>
+                    <option>Sompo</option>
+                    <option>Outro</option>
+                </select></p>
+            <p class="col-md-6">
+                <label >Matricula</label>
+                <input type="number" placeholder="Somente numeros" required min="0">
+            </p>
+        </div>
+        <div class="row">
+
+            <p class="col-md-6"><label >Venc. Carteirinha</label> <input type="date" placeholder="" required></p>
+            <p class="col-md-6"><label >N° Prontuário</label><input type="number" placeholder="Somente numeros" required min="0"></p>
+        </div>
+        <div class="row">
+
+            <p class="col-md-6"><label >Data do Atendimento</label> <input type="date" placeholder="" required></p>
+            <p class="col-md-6"><label >Hora do Atendimento</label><input type="time" placeholder="Somente numeros" required></p>
+        </div>
+        <p><input type="password"  placeholder="Senha do Painel" required>
+            
+        </p>
+      
+        <p class="register-submit"><input type="submit" value="Registrar"></p>
+    </form>
+</div>
+
+<a href="https://www.iubenda.com/privacy-policy/40614092" class="iubenda-black iubenda-noiframe iubenda-embed iubenda-noiframe " title="Política de Privacidade ">Política de Privacidade</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);};
+    if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+<a href="https://www.iubenda.com/privacy-policy/40614092/cookie-policy" class="iubenda-black iubenda-noiframe iubenda-embed iubenda-noiframe " title="Política de Cookies ">Política de Cookies</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; 
+    if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+
+<script type="text/javascript">
+    var _iub = _iub || [];
+    _iub.csConfiguration = {"askConsentAtCookiePolicyUpdate":true,"enableGdpr":false,"enableLgpd":true,"floatingPreferencesButtonDisplay":"bottom-right","lang":"pt-BR","perPurposeConsent":true,"siteId":3183156,"whitelabel":false,"cookiePolicyId":40614092, "banner":{ "acceptButtonDisplay":true,"backgroundOverlay":true,"closeButtonDisplay":false,"customizeButtonDisplay":true,"explicitWithdrawal":true,"position":"float-bottom-center","rejectButtonDisplay":true }};
+    </script>
+    <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+<script src="script.js"></script>
+
+
+
+<!-- This is a placeholder fallback for IE9 browser -->
+<!-- For IE9 and below - placeholder fallback-->
+<!--[if lt IE 10]>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="jquery.placeholder.min.js"></script>
+    <script type="text/javascript">
+        $('input, textarea').placeholder();
+    </script>
+<![endif]-->
+
+
+ 
+</body>
+</html>
